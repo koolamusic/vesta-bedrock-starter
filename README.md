@@ -40,10 +40,7 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 1. Create a New Web Project from Vesta Control Panel (example.com)
 2. SSH into your server and navigate to `/home/USER_NAME/WEB_DOMAIN, where username is assigned to you by your server admin, and web_domain is the domain name of your project. Vesta Groups project directories according to domain name.
-3. clone this project `git clone https://github.com/koolamusic/vesta-bedrock-starter.git .` or run the  setup script directly
-
-```curl -L -o 'setup.sh' https://raw.githubusercontent.com/koolamusic/vesta-bedrock-starter/master/setup.sh && chmod +x setup.sh && bash setup.sh
-```
+3. clone this project `git clone https://github.com/koolamusic/vesta-bedrock-starter.git .` or run the  setup script directly `curl -L -o 'setup.sh' https://raw.githubusercontent.com/koolamusic/vesta-bedrock-starter/master/setup.sh && chmod +x setup.sh && bash setup.sh`
 
 
 
