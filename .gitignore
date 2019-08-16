@@ -1,0 +1,29 @@
+# Application
+web/public_html/plugins/*
+!web/public_html/plugins/.gitkeep
+web/public_html/mu-plugins/*/
+web/public_html/upgrade
+web/public_html/uploads/*
+!web/public_html/uploads/.gitkeep
+
+# WordPress
+public_html/wp
+public_html/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
+
+
+# VESTA ROOT
+/cgi-bin
+/document_errors
+/log*
+/public_shtml
